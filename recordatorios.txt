@@ -1,0 +1,20 @@
+en vez de hacer una animacion de quieto con un sube y baja la animacion es estatica y la baseInicio tiene un material que rebota (en teoria con la misma fuerza siempre)
+
+
+Los prefabs de triangulos etc... tienen un collider para poder borrar el prefab entero y no solo el sprite asociado a el
+
+En el prefab del circulo los sprites estan desplazados 0.5 unidades respecto al objeto en si(gameobjext) para evitar que colisionen el circulo con el destructor vertical. De este modo el destructor vertical no se destruye y si los circulos que se van generando automaticamente. 
+
+
+Cambiar la animaciones para que oscilen mas
+
+
+cambiar la velocidad y salto del juego
+
+cmabiar el movimiento del fondo y los limites, cambiar el fondo y los limites
+
+si los botones no funcionan cmabiar los colliders2D por 3D
+////////////////////////////
+gravedad -9.81y(edit, projetc settings, physics 2D)
+fuerza salto 6
+gravity scale rigidbody Jugador 1

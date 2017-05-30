@@ -1,0 +1,20 @@
+REDUCIR EL SALTO AL AUMENTAR LA PUNTUACION(?)
+IMPORTANTE
+ajustar la dificultad, cantidad de generadores, fuerza salto, velocidad
+//////////////////
+modo de juego que aumente la velocidad o la disminuya al colisionar con un item en concreto
+//////////////////////
+simplificar codigo
+los script triples se podrian hacer en uno solo haciendo 3 apartados diferentes con:
+if(Application.loadedLevelName == "NombreEscenaACargar")
+
+cambiar void update() por metodos para ahorra bateria
+coroutines
+limitar fps(?)
+/////////////////////////////////////////////////
+Auduio delay
+///////////////////////////////
+script con todas las funciones
+////////////////
+destructor vertical desaparaece de forma aleatoria al colisinar con los circulos
+/////////////////

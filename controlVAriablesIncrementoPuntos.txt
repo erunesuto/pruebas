@@ -1,0 +1,10 @@
+Cada 5 puntos
+
+controlador.Personaje.Velocidad +1
+controlador.Personaje.FuerzaSalto ?
+Gravedad?
+generador.TiempoMin -0.01
+generador.TiempoMax -0.01
+
+
+velocidad fondos
