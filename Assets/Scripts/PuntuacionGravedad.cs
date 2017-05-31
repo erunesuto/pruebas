@@ -10,7 +10,7 @@ public class PuntuacionGravedad : MonoBehaviour {
     void Start()
     {
         //NotificationCenter.DefaultCenter().AddObserver(this, "IncrementarPuntos");
-        NotificationCenter.DefaultCenter().AddObserver(this, "IncrementarPuntosTiempo");
+        NotificationCenter.DefaultCenter().AddObserver(this, "IncrementarPuntosGravedad");
         NotificationCenter.DefaultCenter().AddObserver(this, "PersonajeHaMuerto");
         ActualizarMarcador();
     }
@@ -19,12 +19,12 @@ public class PuntuacionGravedad : MonoBehaviour {
     {
         if (puntuacionGravedad > EstadoJuegoGravedad.estadoJuegoGravedad.puntuacionMaximaGravedad)
         {
-            EstadoJuegoTiempo.estadoJuegoTiempo.puntuacionMaximaTiempo = puntuacionGravedad;
-            EstadoJuegoTiempo.estadoJuegoTiempo.Guardar();
+            EstadoJuegoGravedad.estadoJuegoGravedad.puntuacionMaximaGravedad = puntuacionGravedad;
+            EstadoJuegoGravedad.estadoJuegoGravedad.Guardar();
         }
     }
 
-    void IncrementarPuntosTiempo(Notification notificacion)
+    void IncrementarPuntosGravedad(Notification notificacion)
     {
         int puntosAIncrementar = (int)notificacion.data;
         puntuacionGravedad += puntosAIncrementar;

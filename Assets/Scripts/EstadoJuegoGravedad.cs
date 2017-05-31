@@ -51,10 +51,10 @@ public class EstadoJuegoGravedad : MonoBehaviour
         BinaryFormatter bf = new BinaryFormatter();
         FileStream file = File.Create(rutaArchivoGravedad);
 
-        DatosAGuardar datos = new DatosAGuardar();
-        datos.puntuacionMaxima = puntuacionMaximaGravedad;
+        DatosAGuardar datosGravedad = new DatosAGuardar();
+        datosGravedad.puntuacionMaxima = puntuacionMaximaGravedad;
 
-        bf.Serialize(file, datos);
+        bf.Serialize(file, datosGravedad);
 
         file.Close();
     }
@@ -67,9 +67,9 @@ public class EstadoJuegoGravedad : MonoBehaviour
             FileStream file = File.Open(rutaArchivoGravedad, FileMode.Open);
 
             //al deserializar nos desvuelve un objeto no un tipo concreto. Se hace el casting a la clase DatosAGuardar
-            DatosAGuardar datos = (DatosAGuardar)bf.Deserialize(file);
+            DatosAGuardar datosGravedad = (DatosAGuardar)bf.Deserialize(file);
 
-            puntuacionMaximaGravedad = datos.puntuacionMaxima;
+            puntuacionMaximaGravedad = datosGravedad.puntuacionMaxima;
 
             file.Close();
         }
@@ -81,7 +81,7 @@ public class EstadoJuegoGravedad : MonoBehaviour
 }
 //Se usa DatosAGuardar en vez de DatosAGuardarTiempo (?)
 /*[Serializable]
-class DatosAGuardar
+class DatosAGuardarGravedad
 {
     public int puntuacionMaxima;
 }*/

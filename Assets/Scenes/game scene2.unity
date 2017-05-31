@@ -1086,7 +1086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   total: {fileID: 45045486}
   record: {fileID: 2037429510}
-  puntuacionTiempo: {fileID: 0}
+  puntuacionTiempo: {fileID: 1507690946}
 --- !u!4 &1299931417 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4440469795919210, guid: ca60bc0ed6f45fe478fd07e96f09c2ce,

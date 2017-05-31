@@ -14,7 +14,6 @@ public class EstadoJuegoTiempo : MonoBehaviour
 
     void Awake()
     {
-        
         //Debug.Log(Application.persistentDataPath);
         //ruta C:/Users/Ernesto/AppData/LocalLow/DefaultCompany/Proyecto Comares
         //Application.persistentDataPath es C:/Users/Ernesto/AppData/LocalLow/DefaultCompany/Proyecto Comares/Assets
@@ -81,8 +80,8 @@ public class EstadoJuegoTiempo : MonoBehaviour
     }
 }
 //Se usa DatosAGuardar en vez de DatosAGuardarTiempo (?)
-[Serializable]
+/*[Serializable]
 class DatosAGuardarTiempo
 {
     public int puntuacionMaximaTiempo;
-}
+}*/
