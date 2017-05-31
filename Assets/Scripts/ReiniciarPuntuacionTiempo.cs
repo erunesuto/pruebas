@@ -16,5 +16,6 @@ public class ReiniciarPuntuacionTiempo : MonoBehaviour
     void OnMouseDown()
     {
         EstadoJuegoTiempo.estadoJuegoTiempo.puntuacionMaximaTiempo = 0;
+        EstadoJuegoTiempo.estadoJuegoTiempo.Guardar();
     }
 }

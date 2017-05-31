@@ -18,5 +18,6 @@ public class ReiniciarPuntosGravedad : MonoBehaviour {
     void OnMouseDown()
     {
         EstadoJuegoGravedad.estadoJuegoGravedad.puntuacionMaximaGravedad = 0;
+        EstadoJuegoGravedad.estadoJuegoGravedad.Guardar();
     }
 }

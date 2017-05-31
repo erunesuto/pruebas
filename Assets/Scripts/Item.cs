@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+//controla la puntuacion de cada item, y activa el audio al colisioanr con el JugadorEstrella
 
 public class Item : MonoBehaviour {
 

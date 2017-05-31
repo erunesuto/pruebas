@@ -81,7 +81,7 @@ public class EstadoJuegoTiempo : MonoBehaviour
 }
 //Se usa DatosAGuardar en vez de DatosAGuardarTiempo (?)
 /*[Serializable]
-class DatosAGuardarTiempo
+class DatosAGuardar
 {
     public int puntuacionMaximaTiempo;
 }*/

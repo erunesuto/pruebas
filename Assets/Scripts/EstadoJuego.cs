@@ -83,7 +83,7 @@ public class EstadoJuego : MonoBehaviour
         }
     }
 }
-
+//la clase es publica,se puede acceder directamente, no es necesario EstadoJuego.estadojuego, no entiendo porque
 [Serializable]
 class DatosAGuardar
 {

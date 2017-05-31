@@ -16,5 +16,6 @@ public class ReiniciarPuntuacion : MonoBehaviour
     void OnMouseDown()
     {
         EstadoJuego.estadoJuego.puntuacionMaxima = 0;
+        EstadoJuego.estadoJuego.Guardar();
     }
 }

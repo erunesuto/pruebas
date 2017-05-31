@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 
 public class Puntuacion : MonoBehaviour {
-
     
     public static int puntuacion = 0;
     //creamos una variable de tipo TextMesh(texto), esta variable la asociamos desde el inspector de la camara
