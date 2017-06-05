@@ -15,6 +15,7 @@ coroutines
 limitar fps(?)
 /////////////////////////////////////////////////
 Auduio delay
+Audio Manager. DSP Buffer Size. Best Latency.
 ///////////////////////////////
 script con todas las funciones
 ////////////////
