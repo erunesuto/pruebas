@@ -2,8 +2,14 @@ REDUCIR EL SALTO AL AUMENTAR LA PUNTUACION(?)
 IMPORTANTE
 ajustar la dificultad, cantidad de generadores, fuerza salto, velocidad
 ///////////////////////////
-GUIA EXPLICANDO COMO FUNCIONA EL JUEGO
-//////////////////
+Auduio delay
+Audio Manager. DSP Buffer Size. Best Latency.
+///////////////////////////////
+La puntuacion maxima del modo normal se guarda instantaneamente, los demas modos tienes que morir una vez para que
+se muestre actualizada.
+///////////////////////////////////
+Problemas de colisiones a altas velocidades
+////////////////////////////////////////////
 modo de juego que aumente la velocidad o la disminuya al colisionar con un item en concreto
 //////////////////////
 simplificar codigo
@@ -14,14 +20,7 @@ cambiar void update() por metodos para ahorra bateria
 coroutines
 limitar fps(?)
 /////////////////////////////////////////////////
-Auduio delay
-Audio Manager. DSP Buffer Size. Best Latency.
-///////////////////////////////
+
 script con todas las funciones
 ////////////////
-destructor vertical desaparaece de forma aleatoria al colisinar con los circulos
-/////////////////
-Boton restart score. NO funciona como deberia. si le das y te sales no te reinicia la puntuacion maxima.
-si reinicias y juegas una partida si te la guarda.
-posible solucion: acceder a datos.puntuacion directamente --> datos.puntuacion=0
-Tambien se puede borrar el archivo con los datos.
+

@@ -1266,6 +1266,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4285014309560756, guid: 7bbfd4c1e987db8479d243a00a235aea, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202241736094514, guid: 7bbfd4c1e987db8479d243a00a235aea, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114216741151721966, guid: 7bbfd4c1e987db8479d243a00a235aea, type: 2}
     - {fileID: 114216541557777412, guid: 7bbfd4c1e987db8479d243a00a235aea, type: 2}
