@@ -10,6 +10,8 @@ se muestre actualizada.
 ///////////////////////////////////
 Problemas de colisiones a altas velocidades
 ////////////////////////////////////////////
+modificar el icono de inicio , Easy Games Spain
+////////////////////////////
 modo de juego que aumente la velocidad o la disminuya al colisionar con un item en concreto
 //////////////////////
 simplificar codigo

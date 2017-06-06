@@ -16,7 +16,7 @@ public class zdebug : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        Debug.Log(Application.persistentDataPath);
+        GetComponent<AudioSource>().Play();
         Debug.Log("pulsado");
     }
 }
