@@ -8,6 +8,7 @@ Audio Manager. DSP Buffer Size. Best Latency.
 La puntuacion maxima del modo normal se guarda instantaneamente, los demas modos tienes que morir una vez para que
 se muestre actualizada.
 ///////////////////////////////////
+IMPORTANTE SE HA MODIFICADO LOS COLLIDERS DE LOS CIRCULOS, INESTABILIDAD
 Problemas de colisiones a altas velocidades
 ////////////////////////////////////////////
 modificar el icono de inicio , Easy Games Spain
